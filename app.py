@@ -98,7 +98,7 @@ def api_all():
 @app.route('/api/anagersolution/random', methods=['GET'])
 def api_id():
     results = []
-    r = random.randint(1,5000)
+    r = random.randint(1,25)
     # r0 = str(r)
     # Loop through the data and match results that fit the requested ID.
     # IDs are unique, but other fields might return many results
